@@ -9,7 +9,7 @@ def verificar_push(comando):
     # Incluye git push, git.exe push y opciones globales como git -C ruta push.
     if not re.search(r"\bgit(?:\.exe)?\b[^\r\n;&|]*\bpush\b", comando, re.IGNORECASE):
         return
-
+#fsadfasdfasdfasdfasdfasdvfasd;lkhvalsohenviu
     proyecto = Path(__file__).resolve().parents[1] / "proyecto-demo"
     try:
         resultado = subprocess.run(
